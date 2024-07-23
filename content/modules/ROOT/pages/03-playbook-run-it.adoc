@@ -1,6 +1,6 @@
 :sectnums:
 = 1.2 - Run the playbook!
-:imagedir: ../assets/images
+
 In this challenge, you will execute your Ansible Playbook from the control node using the *ansible-navigator* CLI tool.
 
 
@@ -35,7 +35,7 @@ NOTE: *-i hosts* option is not required as the inventory was configured in the *
 
 .The output should not report any errors but provide an overview of the tasks executed and a "PLAY RECAP" summarizing what has been done.
 [image]
-image::{imagedir}/navigator-output.png[Output, 90%, align="center"]
+image::navigator-output.png[Output, 90%, align="center"]
 
 NOTE: There is a built-in task labeled *Gathering Facts* that runs automatically at the beginning of each Ansible play. It collects information about the managed nodes. Upcoming challenges will cover this in more detail.
 =====
@@ -80,7 +80,7 @@ ansible-navigator run system_setup.yml
 
 .You should see something like this:
 [image]
-image::{imagedir}/idem-output.png[Output, 90%, align="center"]
+image::idem-output.png[Output, 90%, align="center"]
 
 [NOTE]
 ====
