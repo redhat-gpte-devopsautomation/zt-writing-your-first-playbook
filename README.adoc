@@ -108,6 +108,6 @@ tabs:
     port: 443
     path: /tty1
 ----
-NOTE: Keep the rest of directory and file default. 
+NOTE: Keep the rest of directories and files as default. 
 
 IMPORTANT: This stucture works well with agnosticd role *showroom* .
