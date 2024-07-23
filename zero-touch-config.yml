@@ -1,0 +1,45 @@
+---
+
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: 01-playbook-inventory
+      label: Playbook Inventory
+      solveButton: true
+    - name: 02-playbook-directory-structure
+      label: Playbook Directory Structure
+      solveButton: true
+    - name: 03-playbook-run-it
+      label: Playbook Run it
+      solveButton: true
+    - name: 04-playbook-multi-node
+      label: Playbook Multi Node
+      solveButton: true
+    - name: 05-playbook-variables
+      label: Playbook Variables
+      solveButton: true
+    - name: 06-playbook-conditionals
+      label: Playbook Conditionals
+      solveButton: true
+    - name: 07-handlers
+      label: Handlers
+      solveButton: true
+    - name: 08-playbook-loops
+      label: Playbook Loops
+      solveButton: true
+    - name: 09-playbook-templates
+      label: Playbook Templates
+      solveButton: true
+    - name: 10-roles
+      label: Roles
+      solveButton: true
+
+tabs:
+  - name: VSCode Editor
+    port: 8443
+    path: /?folder=/home/rhel/ansible-files/
+  - name: ">_control"
+    port: 443
+    path: /tty1
+  
