@@ -108,6 +108,8 @@ IMPORTANT: *ansible-navigator* comes with an interactive mode by default that al
 cd ansible-files
 ----
 
+No output is expected from this command.
+
 . Run the following commands to get a listing of what is available within our recently created *inventory*:
 +
 [source,shell]
