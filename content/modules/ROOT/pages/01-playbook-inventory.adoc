@@ -101,14 +101,19 @@ NOTE: Switch to the *Control* top tab for the Terminal
 
 IMPORTANT: *ansible-navigator* comes with an interactive mode by default that allows you to explore the different options through a Terminal UI, but for this lab, we will set the mode of *ansible-navigator* to *stdout*, the standard output. We have configured this as the default in the *ansible-navigator.yml* settings file.
 
-. Change to the *ansible-files* directory
+. Verify you are in the *ansible-files* directory
 +
 [source,shell]
 ----
-cd ansible-files
+pwd
 ----
-
-No output is expected from this command.
++
+.Output should look like this:
++
+[source,text]
+----
+/home/rhel/ansible-files
+----
 
 . Run the following commands to get a listing of what is available within our recently created *inventory*:
 +

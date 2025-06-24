@@ -37,14 +37,6 @@ NOTE: In the *VSCode Editor* tab
         state: started
         enabled: true
       when: inventory_hostname in groups['web']
-
-    - name: Allow HTTP traffic on web servers
-      ansible.posix.firewalld:
-        service: http
-        permanent: true
-        state: enabled
-      when: inventory_hostname in groups['web']
-      notify: Reload Firewall
 ----
 
 . Add the following firewalld task with parameter *notify* at the end of *system_setup.yml* playbook. Remember to check the indentation!

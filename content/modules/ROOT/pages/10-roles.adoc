@@ -182,7 +182,7 @@ apache_service_name: httpd
 =====
 NOTE: Ansible uses Jinja2 templating to enable dynamic expressions and access to variables and facts. You can use templating with the *template* module. We will use a Jinja2 template to create a custom *index.html*. Let's create the file and store it in the apache role directory:
 
-. Create  *ansible-files/roles/apache/templates/index.html.j2* with the following content:
+. Create a new file *ansible-files/roles/apache/templates/index.html.j2* with the following content:
 +
 [source,html]
 ----
@@ -210,7 +210,7 @@ NOTE: You will notice we are using an Ansible variable in that HTML code above: 
 +
 [IMPORTANT]
 ====
-Pay atention to indentation. When pressing enter in VSCode some extra spaces might be added!
+Pay attention to indentation. When pressing enter in VSCode some extra spaces might be added!
 ====
 
 +
