@@ -65,7 +65,7 @@ NOTE: In the *VSCode Editor* tab
 
 [IMPORTANT]
 ====
-.💡 The *system_setup.yml* Playbook output output should look like this:
+.💡 The *system_setup.yml* Playbook output should look like this:
 [source,yaml]
 ----
 ---
