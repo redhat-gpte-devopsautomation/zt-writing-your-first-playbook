@@ -17,12 +17,12 @@ This exercise builds upon previous exercises by guiding you through the creation
 * Ansible Galaxy is your hub for finding, reusing and sharing Ansible content.
 ====
 
-. Switch back to the **Control** tab
-. In the ansible-files create a roles directory.
+. Ensure you are on the **Control** tab
+. In the ansible-files directory create a new directory called **roles**.
 +
 [source,shell]
 ----
-cd ansible-files
+cd /home/rhel/ansible-files
 ----
 +
 [source,shell]
@@ -230,7 +230,7 @@ Pay attention to indentation. When pressing enter in VSCode some extra spaces mi
 .☑️ Task 8 - Create a new playbook called deploy_apache.yml to use the new *apache* role
 [%collapsible]
 =====
-. Create the *deploy_apache.yml* playbook in the *ansible-files* directory with the following content:
+. Create a new playbook named *deploy_apache.yml* in the *ansible-files* directory with the following content:
 +
 IMPORTANT: All we need to do to use our role is call it under the *roles:* declarative with its name *apache*
 
@@ -322,6 +322,6 @@ Once you've completed the task, press the image:end.png[End, 50] button below to
 .🐛 Encountered an issue?
 [%collapsible]
 =====
-If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+10-roles&assignees=miteshget[Writing your first playbook repository].
+If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+10-roles&assignees=miteshget[Writing your first playbook repository^].
 =====
 ======

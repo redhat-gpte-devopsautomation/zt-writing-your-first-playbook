@@ -14,7 +14,7 @@ In this challenge, you will execute your Ansible Playbook from the control node 
 +
 [source,shell]
 ----
-cd ansible-files
+cd /home/rhel/ansible-files
 ----
 
 
@@ -111,6 +111,6 @@ Once you've completed the task, press the image:next.png[Next, 50] button at the
 .🐛 Encountered an issue?
 [%collapsible]
 =====
-If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+03-playbook-run-it&assignees=miteshget[Writing your first playbook repository].
+If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+03-playbook-run-it&assignees=miteshget[Writing your first playbook repository^].
 =====
 ======

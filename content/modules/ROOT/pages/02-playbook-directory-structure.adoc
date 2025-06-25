@@ -36,6 +36,8 @@ In the *VSCode Editor* tab
 =====
 . The following content is how a playbook starts:
 +
+NOTE: This code block is for reference only. You will create the playbook in the following step.
++
 [source,yaml]
 ----
 ---
@@ -145,6 +147,6 @@ Once you've completed the task, press the image:next.png[Next, 50] button at the
 .🐛 Encountered an issue?
 [%collapsible]
 =====
-If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+02-playbook-directory-structure&assignees=miteshget[Writing your first playbook repository].
+If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+02-playbook-directory-structure&assignees=miteshget[Writing your first playbook repository^].
 =====
 ======

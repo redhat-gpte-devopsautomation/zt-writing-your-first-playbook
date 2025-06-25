@@ -63,3 +63,14 @@
       ansible.builtin.dnf:
         name: httpd
         state: present
+
+- name: Add user padawan to hosts
+  hosts: web:database
+  become: true
+  gather_facts: false
+  tasks:
+    - name: Create a new user
+      ansible.builtin.user:
+        name: 'padawan'
+        state: present
+        create_home: true

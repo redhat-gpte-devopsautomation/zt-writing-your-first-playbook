@@ -12,7 +12,9 @@ The biggest strength of automation lies in its ability to manage multiple system
 
 NOTE: In the *VSCode Editor* tab
 
-. Open your *system_setup.yml* playbook and modify the *hosts:* line value from the individual *node1* to the *web* group. Look at the example below:
+. Open your *system_setup.yml* playbook and modify the *hosts:* line value from the individual *node1* to the *web* group. An example is shown below.
++
+IMPORTANT: If you copy and pate this into the playbook, ensure the indentaion is correct and the previous values are replaced.
 +
 [source,yaml]
 ----
@@ -33,7 +35,7 @@ NOTE: Switch to the *Control* top tab.
 +
 [source,cmd]
 ----
-cd ansible-files
+cd /home/rhel/ansible-files
 ----
 
 . And run the Ansible playbook again with *ansible-navigator*
@@ -95,6 +97,6 @@ Once you've completed the task, press the image:next.png[Next, 50] button at the
 .🐛 Encountered an issue?
 [%collapsible]
 =====
-If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+04-playbook-multi-node&assignees=miteshget[Writing your first playbook repository].
+If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+04-playbook-multi-node&assignees=miteshget[Writing your first playbook repository^].
 =====
 ======

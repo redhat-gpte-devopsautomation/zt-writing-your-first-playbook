@@ -74,7 +74,7 @@ NOTE: In the **Control** tab
 +
 [source,shell]
 ----
-cd ansible-files
+cd /home/rhel/ansible-files
 ----
 
 +
@@ -102,7 +102,7 @@ NOTE: You should see a message similar to the one below (RHEL version might vary
 [source,ini]
 ----
 Welcome to node1.
-OS: RedHat 9.2
+OS: RedHat 8.7
 Architecture: x86_64
 ----
 
@@ -124,7 +124,7 @@ ssh node2
 [source,shell]
 ----
 exit
----- 
+----
 =====
 ======
 
@@ -212,7 +212,7 @@ exit
 .✅ Next Challenge
 [%collapsible]
 =====
-Once you've completed the task, press the image:next.png[Next, 50] button at the bottom to proceed to the next challenge. 
+Once you've completed the task, press the image:next.png[Next, 50] button at the bottom to proceed to the next challenge.
 
 * The image:next.png[Next, 50] button will validate your steps and move you to the next challenge or chapter. If any steps are missing, an error will be produced, allowing you to recheck your steps before clicking the Next button again to continue.
 
@@ -225,6 +225,6 @@ Once you've completed the task, press the image:next.png[Next, 50] button at the
 .🐛 Encountered an issue?
 [%collapsible]
 =====
-If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+09-playbook-templates&assignees=miteshget[Writing your first playbook repository].
+If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+09-playbook-templates&assignees=miteshget[Writing your first playbook repository^].
 =====
 ======

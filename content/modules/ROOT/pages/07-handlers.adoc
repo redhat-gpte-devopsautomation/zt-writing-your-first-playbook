@@ -13,11 +13,10 @@ Let's say we want to ensure the firewall is configured correctly on all web serv
 =====
 NOTE: In the *VSCode Editor* tab
 
-. Open the *Editor* tab, and edit the *system_setup.yml* playbook. Make sure you add the new tasks below related to the firewall. Remember to check the indentation!
+. Edit the *system_setup.yml* playbook. Add the tasks shown below to the end of the existing playbook. Remember to check the indentation!
 +
 [source,yaml]
 ----
----
     - name: Ensure Apache is running and enabled
       ansible.builtin.service:
         name: "{{ apache_service_name }}"
@@ -61,6 +60,16 @@ NOTE: In the *VSCode Editor* tab
       ansible.builtin.service:
         name: firewalld
         state: reloaded
+----
+
+. At the top of the playbook, add the variable *apache_service_name: httpd* under the *vars:* list, below *package_name: httpd*:
++
+[source,yaml]
+----
+  vars:
+    user_name: 'padawan'
+    package_name: httpd
+    apache_service_name: httpd
 ----
 
 [IMPORTANT]
@@ -158,7 +167,7 @@ NOTE: In the **Control** tab
 +
 [source,shell]
 ----
-cd ansible-files
+cd /home/rhel/ansible-files
 ----
 
 +
@@ -252,6 +261,6 @@ Once you've completed the task, press the image:next.png[Next, 50] button at the
 .🐛 Encountered an issue?
 [%collapsible]
 =====
-If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+07-handlers&assignees=miteshget[Writing your first playbook repository].
+If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+07-handlers&assignees=miteshget[Writing your first playbook repository^].
 =====
 ======

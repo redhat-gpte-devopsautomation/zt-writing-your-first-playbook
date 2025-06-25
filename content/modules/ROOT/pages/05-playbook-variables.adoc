@@ -62,7 +62,7 @@ NOTE: Switch to the **Control** top tab.
 
 [source,shell]
 ----
-cd ansible-files
+cd /home/rhel/ansible-files
 ----
 
 [source,shell]
@@ -85,13 +85,24 @@ ansible-navigator run system_setup.yml
 ----
 ssh node1 id padawan
 ----
-
++
+.Output should be similar to this:
+[source,text]
+----
+uid=1003(padawan) gid=1003(padawan) groups=1003(padawan)
+----
 +
 *For node2:*
 +
 [source,shell]
 ----
 ssh node2 id padawan
+----
++
+.Output should be similar to this:
+[source,text]
+----
+uid=1003(padawan) gid=1003(padawan) groups=1003(padawan)
 ----
 =====
 ======
@@ -116,6 +127,6 @@ Once you've completed the task, press the image:next.png[Next, 50] button at the
 .🐛 Encountered an issue?
 [%collapsible]
 =====
-If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+05-playbook-variables&assignees=miteshget[Writing your first playbook repository].
+If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+05-playbook-variables&assignees=miteshget[Writing your first playbook repository^].
 =====
 ======

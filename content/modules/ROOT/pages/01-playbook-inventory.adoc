@@ -105,15 +105,10 @@ IMPORTANT: *ansible-navigator* comes with an interactive mode by default that al
 +
 [source,shell]
 ----
-pwd
+cd /home/rhel/ansible-files
 ----
 +
-.Output should look like this:
-+
-[source,text]
-----
-/home/rhel/ansible-files
-----
+No output is expected for this command.
 
 . Run the following commands to get a listing of what is available within our recently created *inventory*:
 +
@@ -172,7 +167,7 @@ Once you've completed the task, press the image:next.png[Next, 50] button at the
 .🐛 Encountered an issue?
 [%collapsible]
 =====
-If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+01-playbook-inventory&assignees=miteshget[Writing your first playbook repository].
+If you have encountered an issue or have noticed something not quite right, Please open an issue on the https://github.com/redhat-gpte-devopsautomation/zt-writing-your-first-playbook/issues/new?labels=content+error&title=Issue+with+:+01-playbook-inventory&assignees=miteshget[Writing your first playbook repository^].
 
 =====
 ======
